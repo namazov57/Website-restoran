@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <nav class="navbar">
+            <a href="index.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="menu.html"  >Menu</a>
+            <a href="product.html" >Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html" class="active">Blogs</a>
+        </nav>
+            <div class="buttons">
+                <button id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button id="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+       <div class="search-form ">
+        <input type="text" class="search-input" id="search-box" placeholder="Search here" >
+        <i class="fas fa-search"></i>
+       </div>
+       <div class="cart-items-container ">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-1.png" alt="Menu">
+                <div class="content"></div>
+                <h3>01.Pizza</h3>
+                <div class="price">₼ 15.99</div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-2.png" alt="Menu">
+                <div class="content"></div>
+                <h3>02.Burger</h3>
+                <div class="price">₼ 7.99</div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-3.png" alt="Menu">
+                <div class="content"></div>
+                <h3>03.Mixed</h3>
+                <div class="price">₼ 19.99</div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-4.png" alt="Menu">
+                <div class="content"></div>
+                <h3>04.Burger</h3>
+                <div class="price">₼ 10.99</div>
+            </div>
+            <a href="#" class="btn">İndi Al</a>
+       </div>
+    </header>
+  
+    <section class="blog" id="blog">
+        <h1 class="heading">Bizim <span>Resept</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpg" alt="Blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Burger Necə Hazırlanır?</a>
+                    <span>by admin/03st October, 2023</span>
+                    <p>biz yalnız bir çimdik duz və istiotla dadlandırılmış 100% həqiqi mal əti kotletindən istifadə edirik. Bir sözlə, biz yalnız təbii və keyfiyyətli ərzaqlardan istifadə edərək hər zaman müştərilərimizin istəklərini əsas tuturuq.</p>
+                    <a href="#" class="btn">Daha Ətraflı</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpg" alt="Blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Burger Necə Hazırlanır?</a>
+                    <span>by admin/25st May, 2023</span>
+                    <p>yüksək keyfiyyətinə və məsuliyyətli şəkildə hazırlanmasına çox böyük diqqət yetiririk. Bu o deməkdir ki, biz yalnız bir çimdik duz və istiotla dadlandırılmış 100% həqiqi mal əti kotletindən istifadə edirik.</p>
+                    <a href="#" class="btn">Daha Ətraflı</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpg" alt="Blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Burger Necə Hazırlanır?</a>
+                    <span>by admin/17st June 2023</span>
+                    <p>Biz yeməklərimizin hazırlanma üsullarını və onlara daxil olan ərzaqların keyfiyyətini daima təkmilləşdiririk.</p>
+                    <a href="#" class="btn">Daha Ətraflı</a>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+    <!--! Footer section start -->
+    <section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="btn btn-primary">Axtar</button>
+    </div>
+    <div class="share">
+        <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook" ></a>
+        <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram" ></a>
+        <a href="https://www.linkedin.com/in/nicat-namazov-715076265/" target="_blank" class="fab fa-linkedin" ></a>
+        <a href="https://www.pinterest.com/" target="_blank" class="fab fa-pinterest" ></a>
+        <a href="https://code.edu.az/" target="_blank" class="fab fa-google" ></a>
+      
+    </div>
+    <div class="links">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Conatct</a>
+        <a href="#">Blogs</a>
+    </div>
+    <div class="creat">
+        created by <span>Nicat Namazov</span> | all rigths reserved @2023
+    </div>
+</section>
+    <!--! Footer section end -->
+    <script src="Js/app.js"></script>
+</body>
+</html>

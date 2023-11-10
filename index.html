@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restoran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="product.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blogs</a>
+        </nav>
+            <div class="buttons">
+                <button id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button id="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+       <div class="search-form ">
+        <input type="text" class="search-input" id="search-box" placeholder="Search here" >
+        <i class="fas fa-search"></i>
+       </div>
+       <div class="cart-items-container ">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-1.png" alt="Menu">
+                <div class="content"></div>
+                <h3>01.Pizza</h3>
+                <div class="price">₼ 15.99</div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-2.png" alt="Menu">
+                <div class="content"></div>
+                <h3>02.Burger</h3>
+                <div class="price">₼ 7.99</div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-3.png" alt="Menu">
+                <div class="content"></div>
+                <h3>03.Mixed</h3>
+                <div class="price">₼ 19.99</div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-4.png" alt="Menu">
+                <div class="content"></div>
+                <h3>04.Burger</h3>
+                <div class="price">₼ 10.99</div>
+            </div>
+            <a href="#" class="btn">İndi Al</a>
+       </div>
+    </header>
+     <!--! Home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Sürətli Evə Çatdırılma</h3>
+            <p>Menyumuza daha çox seçim əlavə etməklə və məhz sifariş verdiyiniz zaman hazırlanmış təzə burgerləri təqdim etməklə biz hər zaman müştərilərimizə və yeməklərimizə olan sadiqliyimizi nümayiş edirik.</p>
+        <a href="#" class="btn">İndi sifariş</a>
+        </div>
+    </section>
+     <!--! Home section end -->
+    <!--! Menu section start -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Bizim <span>Menyu</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-1.png" alt="Menu">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>6 Balaca Pizza</h3>
+                    <div class="price"> ₼ 64.99 <span>75.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Səbətə Əlavə Et</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-2.png" alt="Menu">
+                    <span class="menu-category">BURGER</span>
+                    <h3>5 Balaca Burger</h3>
+                    <div class="price"> ₼ 25.99 <span>34.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Səbətə Əlavə Et</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-3.png" alt="Menu">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>6 Qarışıq Pizza</h3>
+                    <div class="price"> ₼ 78.99 <span>89.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Səbətə Əlavə Et</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-4.png" alt="Menu">
+                    <span class="menu-category">BURGER</span>
+                    <h3>6 Ətli Burger</h3>
+                    <div class="price"> ₼ 48.99 <span>59.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Səbətə Əlavə Et</a>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <!--! Menu section end -->
+    <!--! Product section start -->
+    <section class="product" id="product">
+    <h1 class="heading">Bizim <span>Məhsullar</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <span class="title">BALACA BURGER</span>
+                <a href="#" class="name">Sadə Burger</a>
+            </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="Mehsul">
+                </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">₼ 5.00</b>
+                            <span class="amount">110gr / 300 Kal</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#"><i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                
+           
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">BALACA BURGER</span>
+                <a href="#" class="name">Qara Burger</a>
+            </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="Mehsul">
+                </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">₼ 8.00</b>
+                            <span class="amount">110gr / 300 Cal</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#"><i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                
+           
+        </div>
+        <div class="box dark-bg">
+            <div class="box-head">
+                <span class="title">DOYUMLU BURGER</span>
+                <a href="#" class="name">Qarışıq Burger</a>
+            </div>
+                <div class="image">
+                    <img src="images/dark-product.jpg" alt="Mehsul">
+                </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">₼ 12.00</b>
+                            <span class="amount">110gr / 300 Cal</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#"><i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                
+           
+        </div>
+     
+       
+    </div>
+</section>
+    <!--! Product section end -->
+    <!--! About section start -->
+    <section class="about" id="about">
+        <h1 class="heading">Bizim <span>Haqqımızda</span> </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/about.jpg" alt="Haqqinda">
+            </div>
+            <div class="content">
+                <h3>Burgerlərimizin Gizli Resepti Nədir?</h3>
+                <p>Mətbəxlərimiz hər gün yeməklərinizi istədiyiniz şəkildə hazırlamaq üçün fəaliyyət göstərir. Məhz buna görə, sifariş verdiyiniz zaman hazırlanaraq sizə isti-isti və dadlı şəkildə təqdim olunan bütün mal əti burgerlərimizdə biz təzə mal ətindən istifadə edirik. Bununla yanaşı, burger və sendviç üçün bulkalarımızı 5 saniyə daha artıq qızartmağa başladıq ki, onlar daha xırçıltılı olsun.</p>
+                <p>Süd əsaslı məhsullarımızda istifadə etdiyimiz süd süni böyümə hormonu olan rbST ilə müalicə olunmayan inəklərdən əldə olunur.</p>
+                <p>Bu o deməkdir ki, biz yalnız bir çimdik duz və istiotla dadlandırılmış 100% həqiqi mal əti kotletindən istifadə edirik. Bir sözlə, biz yalnız təbii və keyfiyyətli ərzaqlardan istifadə edərək hər zaman müştərilərimizin istəklərini əsas tuturuq.</p>
+                <a href="#"class="btn">Daha Ətraflı</a>
+            </div>
+        </div>
+    </section>
+    <!--! About section end -->
+    <!--! Review section start -->
+    <section class="review" id="review">
+        <h1 class="heading">Müştəri <span>Rəyləri</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quote.png" alt="Reyler">
+                <p>Restoranın məhsullarından dadım və çox xoşuma gəldi.Ümüd edirəmki həmişə bu keyfiyyətdə xidmət edəcəksiniz.Uğurlarınız bol olsun</p>
+                <img src="images/avatar-1.png" alt="Istiafdeci" class="user">
+                
+                <h3>Aysun Əliyeva</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote.png" alt="Reyler">
+                <p>Restoranın məhsullarından dadım və çox xoşuma gəldi.Ümüd edirəmki həmişə bu keyfiyyətdə xidmət edəcəksiniz.Uğurlarınız bol olsun</p>
+                <img src="images/avatar-2.png" alt="Istiafdeci" class="user">
+                <h3>Vaqif Vəliyev</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote.png" alt="Reyler">
+                <p>Restoranın məhsullarından dadım və çox xoşuma gəldi.Ümüd edirəmki həmişə bu keyfiyyətdə xidmət edəcəksiniz.Uğurlarınız bol olsun</p>
+                <img src="images/avatar-3.png" alt="Istiafdeci" class="user">
+                <h3>Aytac Abdullayeva</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--! Review section end -->
+
+    <!--! Contact section start -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Bizimlə <span>Əlaqə</span> </h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.4284905084683!2d49.85136521207026!3d40.37719495792473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d079efb5163%3A0xc20aa51a5f0b5e01!2sCode%20Academy!5e0!3m2!1sen!2saz!4v1696332239125!5m2!1sen!2saz"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3>Əlaqə Yaratmaq</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="text" placeholder="Phone">
+                </div>
+                <input type="submit" class="btn" value="İndi Əlaqə" >
+            </form>
+        </div>
+    </section>
+
+    <!--! Contact section end -->
+
+    <!--! Blog section start -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Bizim <span>Resept</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpg" alt="Blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Burger Necə Hazırlanır?</a>
+                    <span>by admin/03st October, 2023</span>
+                    <p>biz yalnız bir çimdik duz və istiotla dadlandırılmış 100% həqiqi mal əti kotletindən istifadə edirik. Bir sözlə, biz yalnız təbii və keyfiyyətli ərzaqlardan istifadə edərək hər zaman müştərilərimizin istəklərini əsas tuturuq.</p>
+                    <a href="#" class="btn">Daha Ətraflı</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpg" alt="Blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Burger Necə Hazırlanır?</a>
+                    <span>by admin/25st May, 2023</span>
+                    <p>yüksək keyfiyyətinə və məsuliyyətli şəkildə hazırlanmasına çox böyük diqqət yetiririk. Bu o deməkdir ki, biz yalnız bir çimdik duz və istiotla dadlandırılmış 100% həqiqi mal əti kotletindən istifadə edirik.</p>
+                    <a href="#" class="btn">Daha Ətraflı</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpg" alt="Blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Burger Necə Hazırlanır?</a>
+                    <span>by admin/17st June 2023</span>
+                    <p>Biz yeməklərimizin hazırlanma üsullarını və onlara daxil olan ərzaqların keyfiyyətini daima təkmilləşdiririk.</p>
+                    <a href="#" class="btn">Daha Ətraflı</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--! Blog section end -->
+
+    <!--! Footer section start -->
+    <section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="btn btn-primary">Axtar</button>
+    </div>
+    <div class="share">
+        <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook" ></a>
+        <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram" ></a>
+        <a href="https://www.linkedin.com/in/nicat-namazov-715076265/" target="_blank" class="fab fa-linkedin" ></a>
+        <a href="https://www.pinterest.com/" target="_blank" class="fab fa-pinterest" ></a>
+        <a href="https://code.edu.az/" target="_blank" class="fab fa-google" ></a>
+      
+    </div>
+    <div class="links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#product">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Conatct</a>
+        <a href="#blog">Blogs</a>
+    </div>
+    <div class="creat">
+        created by <span>Nicat Namazov</span> | all rigths reserved @2023
+    </div>
+</section>
+    <!--! Footer section end -->
+    <script src="Js/app.js"></script>
+</body>
+</html>
